@@ -15,6 +15,9 @@
 		D51E3B361C1FD91E00ABFD89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51E3B341C1FD91E00ABFD89 /* LaunchScreen.storyboard */; };
 		D51E3B411C1FD91E00ABFD89 /* internationalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D51E3B401C1FD91E00ABFD89 /* internationalTests.m */; };
 		D51E3B4C1C1FD91E00ABFD89 /* internationalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D51E3B4B1C1FD91E00ABFD89 /* internationalUITests.m */; };
+		D51E3B5F1C1FDA0F00ABFD89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D51E3B611C1FDA0F00ABFD89 /* InfoPlist.strings */; };
+		D51E3B781C1FECC000ABFD89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D51E3B7A1C1FECC000ABFD89 /* Localizable.strings */; };
+		D51E3B801C1FEDB000ABFD89 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = D51E3B821C1FEDB000ABFD89 /* a.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,23 @@
 		D51E3B471C1FD91E00ABFD89 /* internationalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = internationalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51E3B4B1C1FD91E00ABFD89 /* internationalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = internationalUITests.m; sourceTree = "<group>"; };
 		D51E3B4D1C1FD91E00ABFD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51E3B591C1FD93A00ABFD89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D51E3B5A1C1FD93A00ABFD89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D51E3B5C1C1FD94E00ABFD89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		D51E3B601C1FDA0F00ABFD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D51E3B621C1FDA1000ABFD89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D51E3B631C1FDA1200ABFD89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D51E3B721C1FEA2900ABFD89 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D51E3B731C1FEA2900ABFD89 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		D51E3B741C1FEA2900ABFD89 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D51E3B791C1FECC000ABFD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D51E3B7B1C1FECC200ABFD89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D51E3B7C1C1FECC300ABFD89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D51E3B7D1C1FECC500ABFD89 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D51E3B811C1FEDB000ABFD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/a.png; sourceTree = "<group>"; };
+		D51E3B831C1FEDB200ABFD89 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/a.png; sourceTree = "<group>"; };
+		D51E3B841C1FEDB300ABFD89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/a.png"; sourceTree = "<group>"; };
+		D51E3B851C1FEDB400ABFD89 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hant"; path = "zh-Hant.lproj/a.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,7 @@
 		D51E3B251C1FD91E00ABFD89 /* international */ = {
 			isa = PBXGroup;
 			children = (
+				D51E3B821C1FEDB000ABFD89 /* a.png */,
 				D51E3B291C1FD91E00ABFD89 /* AppDelegate.h */,
 				D51E3B2A1C1FD91E00ABFD89 /* AppDelegate.m */,
 				D51E3B2C1C1FD91E00ABFD89 /* ViewController.h */,
@@ -109,6 +130,7 @@
 				D51E3B321C1FD91E00ABFD89 /* Assets.xcassets */,
 				D51E3B341C1FD91E00ABFD89 /* LaunchScreen.storyboard */,
 				D51E3B371C1FD91E00ABFD89 /* Info.plist */,
+				D51E3B611C1FDA0F00ABFD89 /* InfoPlist.strings */,
 				D51E3B261C1FD91E00ABFD89 /* Supporting Files */,
 			);
 			path = international;
@@ -118,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				D51E3B271C1FD91E00ABFD89 /* main.m */,
+				D51E3B7A1C1FECC000ABFD89 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,6 +248,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = D51E3B1A1C1FD91E00ABFD89;
 			productRefGroup = D51E3B241C1FD91E00ABFD89 /* Products */;
@@ -243,7 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51E3B781C1FECC000ABFD89 /* Localizable.strings in Resources */,
 				D51E3B361C1FD91E00ABFD89 /* LaunchScreen.storyboard in Resources */,
+				D51E3B5F1C1FDA0F00ABFD89 /* InfoPlist.strings in Resources */,
+				D51E3B801C1FEDB000ABFD89 /* a.png in Resources */,
 				D51E3B331C1FD91E00ABFD89 /* Assets.xcassets in Resources */,
 				D51E3B311C1FD91E00ABFD89 /* Main.storyboard in Resources */,
 			);
@@ -312,6 +340,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				D51E3B301C1FD91E00ABFD89 /* Base */,
+				D51E3B591C1FD93A00ABFD89 /* zh-Hans */,
+				D51E3B5C1C1FD94E00ABFD89 /* en */,
+				D51E3B731C1FEA2900ABFD89 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -320,8 +351,43 @@
 			isa = PBXVariantGroup;
 			children = (
 				D51E3B351C1FD91E00ABFD89 /* Base */,
+				D51E3B5A1C1FD93A00ABFD89 /* zh-Hans */,
+				D51E3B721C1FEA2900ABFD89 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D51E3B611C1FDA0F00ABFD89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51E3B601C1FDA0F00ABFD89 /* Base */,
+				D51E3B621C1FDA1000ABFD89 /* en */,
+				D51E3B631C1FDA1200ABFD89 /* zh-Hans */,
+				D51E3B741C1FEA2900ABFD89 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D51E3B7A1C1FECC000ABFD89 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51E3B791C1FECC000ABFD89 /* Base */,
+				D51E3B7B1C1FECC200ABFD89 /* en */,
+				D51E3B7C1C1FECC300ABFD89 /* zh-Hans */,
+				D51E3B7D1C1FECC500ABFD89 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D51E3B821C1FEDB000ABFD89 /* a.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51E3B811C1FEDB000ABFD89 /* Base */,
+				D51E3B831C1FEDB200ABFD89 /* en */,
+				D51E3B841C1FEDB300ABFD89 /* zh-Hans */,
+				D51E3B851C1FEDB400ABFD89 /* zh-Hant */,
+			);
+			name = a.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,6 +432,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "083b0259-f34c-4aa2-9628-98ec26127162";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -402,6 +469,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "083b0259-f34c-4aa2-9628-98ec26127162";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -415,6 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = map.international;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "083b0259-f34c-4aa2-9628-98ec26127162";
 			};
 			name = Debug;
 		};
@@ -426,6 +495,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = map.international;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "083b0259-f34c-4aa2-9628-98ec26127162";
 			};
 			name = Release;
 		};

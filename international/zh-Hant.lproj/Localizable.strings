@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  international
+
+  Created by kuailefu on 15/12/15.
+  Copyright © 2015年 kuailefu. All rights reserved.
+*/
+"Take photo" = "拍照";
+"Select photo from photo library" = "从相册获取";
+"Record video" = "摄像机";
+"Select video from photo library" = "本地视频";
+"Cancel" = "取消";
